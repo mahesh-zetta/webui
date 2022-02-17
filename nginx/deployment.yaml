@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-sample
+  name: zts-sample
   labels:
-    app: nginx-sample
+    app: zts-sample
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: nginx-sample
+      app: zts-sample
   template:
     metadata:
       labels:
-        app: nginx-sample
+        app: zts-sample
     spec:
       containers:
       - name: nginx
