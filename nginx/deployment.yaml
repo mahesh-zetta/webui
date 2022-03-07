@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: quay.io/centos7/nginx-116-centos7
+        image: quay.io/centos7/nginx-120-centos7
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
