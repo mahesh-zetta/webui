@@ -20,5 +20,5 @@ spec:
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
-  imagePullSecrets:
-    - name: zts-dockerhub-token
+      imagePullSecrets:
+        - name: zts-dockerhub-token
