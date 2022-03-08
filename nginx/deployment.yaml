@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: quai.io/redhattraining/hello-world-nginx
+        image: quay.io/redhattraining/hello-world-nginx
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
