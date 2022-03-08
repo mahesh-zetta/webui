@@ -16,7 +16,9 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: quay.io/redhattraining/hello-world-nginx
+        image: zettasetimg/test:zts-acm-application-0.0.2_commitid-3f15cb
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
+  imagePullSecrets:
+    - name: zts-dockerhub-token
