@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: zettasetimg/test:zts-acm-application-0.0.2_commitid-609402
+        image: zettasetimg/test:zts-acm-application-0.0.2_commitid-7922cb
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
