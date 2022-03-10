@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: zts-sample
+  name: zts-acm-application
   labels:
-    app: zts-sample
+    app: zts-acm-application
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: zts-sample
+      app: zts-acm-application
   template:
     metadata:
       labels:
-        app: zts-sample
+        app: zts-acm-application
     spec:
       containers:
-      - name: nginx
-        image: zettasetimg/test:zts-acm-application-0.0.2_commitid-7922cb
+      - name: zts-acm-application
+        image: zettasetimg/test:zts-acm-application-0.0.2_commitid-42887b
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
