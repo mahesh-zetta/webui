@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: zts-acm-application
+  name: nginx-deployment
   labels:
-    app: zts-acm-application
+    app:nginx-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: zts-acm-application
+      app: nginx-deployment
   template:
     metadata:
       labels:
-        app: zts-acm-application
+        app: nginx-deployment
     spec:
       containers:
-      - name: zts-acm-application
+      - name: nginx-deployment
         image: zettasetimg/test:zts-acm-application-0.0.2_commitid-42887b
         ports:
         - containerPort: 8080
