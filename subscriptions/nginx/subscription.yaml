@@ -19,7 +19,7 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
   name: nginx-production-subscription
-  namespace: nginx
+  namespace: my-project 
   labels:
     app: nginx-sample
   annotations:
