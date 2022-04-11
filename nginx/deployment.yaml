@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: quay.io/jpacker/nginx:1.14.1
+        image: zettasetimg/test:zts-acm-application-0.0.2_commitid-42887b
         ports:
         - containerPort: 8080
         imagePullPolicy: Always
