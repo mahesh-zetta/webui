@@ -1,4 +1,4 @@
-namespace: nginx-sample
+namespace: my-project
 resources:
 - namespace.yaml
 - placementrule.yaml
