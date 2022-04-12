@@ -4,7 +4,7 @@ metadata:
   name: nginx-production
   namespace: nginx
   labels:
-    app: nginx-sample
+    app: zts-cmc
 spec:
   clusterConditions:
     - type: ManagedClusterConditionAvailable
