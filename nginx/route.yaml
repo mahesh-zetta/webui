@@ -1,7 +1,7 @@
 kind: Route
 apiVersion: route.openshift.io/v1
 metadata:
-  name: zts-acm-application
+  name: zts-cmc
 spec:
   to:
     kind: Service

@@ -4,7 +4,7 @@ metadata:
   name: zts-cmc-service
 spec:
   selector:
-    app: zts-acm-application
+    app: zts-cmc
   ports:
     - name: http
       protocol: TCP
