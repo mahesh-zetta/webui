@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
-  name: nginx-development
+  name: nginx-testing
   labels:
     app: zts-cmc
 spec:

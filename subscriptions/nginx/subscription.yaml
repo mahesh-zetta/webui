@@ -1,7 +1,7 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
 metadata:
-  name: nginx-development-subscription
+  name: nginx-testing-subscription
   labels:
     app: zts-cmc 
   annotations:
@@ -11,5 +11,5 @@ spec:
   channel: webui/gitops
   placement:
     placementRef:
-      name: nginx-development
+      name: nginx-testing
       kind: PlacementRule
